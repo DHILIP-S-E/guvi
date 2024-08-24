@@ -1,0 +1,274 @@
+/* General body and header styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f7f6; /* Light gray background for a clean look */
+}
+
+header {
+    background-color: #004d40; /* Dark teal for the header */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White text for nav links */
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #80cbc4; /* Teal accent color on hover */
+}
+
+/* Introduction section styling */
+.introduction-section {
+    padding: 60px 20px;
+    background-color: #ffffff; /* White background */
+    text-align: center;
+}
+
+.introduction-section h2 {
+    font-size: 2.5em;
+    color: #004d40; /* Dark teal for the section header */
+    margin-bottom: 30px;
+}
+
+.introduction-section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto 40px; /* Center the paragraph and add space below */
+    text-align: left; /* Left-align the text for better readability */
+}
+
+/* Navigation buttons styling */
+.navigation-buttons {
+    margin-top: 30px;
+}
+
+.navigation-buttons a {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #00796b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 10px;
+    text-align: center;
+}
+
+.navigation-buttons a:hover {
+    background-color: #004d40;
+    transform: scale(1.05);
+}
+
+/* About Me section styling */
+.about-me-section {
+    padding: 60px 20px;
+    background-color: #ffffff; /* White background for readability */
+    text-align: center;
+}
+
+.about-me-section h2 {
+    font-size: 2.5em;
+    color: #004d40; /* Dark teal for section headers */
+    margin-bottom: 30px;
+}
+
+.about-me-section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto; /* Center the content */
+    text-align: left; /* Left-align the text for better readability */
+}
+
+/* Projects section styling */
+.projects-section {
+    padding: 60px 20px;
+    background-color: #e0f2f1; /* Light teal background */
+}
+
+.projects-section h2 {
+    font-size: 2.5em;
+    color: #004d40; /* Dark teal for section headers */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-card h3 {
+    font-size: 1.5em;
+    color: #004d40; /* Dark teal for project titles */
+    margin: 15px 0;
+}
+
+.project-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+.project-card .cta-button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #00796b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 10px;
+}
+
+.project-card .cta-button:hover {
+    background-color: #004d40;
+    transform: scale(1.05);
+}
+
+/* Learn section styling */
+.learn-section {
+    padding: 60px 20px;
+    background-color: #ffffff; /* White background */
+    text-align: center;
+}
+
+.learn-section h2 {
+    font-size: 2.5em;
+    color: #004d40; /* Dark teal for section headers */
+    margin-bottom: 30px;
+}
+
+.learn-section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto; /* Center the content */
+    text-align: left; /* Left-align the text for better readability */
+}
+
+.learn-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.learn-section ul li {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.learn-section .cta-button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #00796b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 20px;
+}
+
+.learn-section .cta-button:hover {
+    background-color: #004d40;
+    transform: scale(1.05);
+}
+
+/* Program section styling */
+.program-section {
+    padding: 60px 20px;
+    background-color: #e0f2f1; /* Light teal background */
+}
+
+.program-section h2 {
+    font-size: 2.5em;
+    color: #004d40; /* Dark teal for section headers */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.program-section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto; /* Center the content */
+    text-align: left; /* Left-align the text for better readability */
+}
+
+.program-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.program-section ul li {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Footer styling */
+footer {
+    background-color: #004d40; /* Dark teal for the footer */
+    color: #ffffff; /* White text for contrast */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icon {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+footer .social-icon:hover {
+    color: #80cbc4; /* Teal accent color on hover */
+}
